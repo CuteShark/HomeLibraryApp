@@ -1,0 +1,31 @@
+2019-04-24 17:07:08.908  INFO 5988 --- [main] c.e.s.b.BookLibraryApplicationTests      : Starting BookLibraryApplicationTests on castor with PID 5988 (started by salikova in /opt/repositories/book-library)
+2019-04-24 17:07:08.915  INFO 5988 --- [main] c.e.s.b.BookLibraryApplicationTests      : No active profile set, falling back to default profiles: default
+2019-04-24 17:07:10.408  INFO 5988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 17:07:10.450  INFO 5988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2019-04-24 17:07:10.849  INFO 5988 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$46342297] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 17:07:11.053  INFO 5988 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-04-24 17:07:11.311  INFO 5988 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-04-24 17:07:11.832  INFO 5988 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT COUNT(*) FROM book_library.DATABASECHANGELOGLOCK
+2019-04-24 17:07:11.855  INFO 5988 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT COUNT(*) FROM book_library.DATABASECHANGELOGLOCK
+2019-04-24 17:07:11.857  INFO 5988 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT `LOCKED` FROM book_library.DATABASECHANGELOGLOCK WHERE ID=1
+2019-04-24 17:07:11.900  INFO 5988 --- [main] l.lockservice.StandardLockService        : Successfully acquired change log lock
+2019-04-24 17:07:12.497  INFO 5988 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT MD5SUM FROM book_library.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+2019-04-24 17:07:12.498  INFO 5988 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT COUNT(*) FROM book_library.DATABASECHANGELOG
+2019-04-24 17:07:12.499  INFO 5988 --- [main] l.c.StandardChangeLogHistoryService      : Reading from book_library.DATABASECHANGELOG
+2019-04-24 17:07:12.499  INFO 5988 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT * FROM book_library.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2019-04-24 17:07:12.544  INFO 5988 --- [main] l.lockservice.StandardLockService        : Successfully released change log lock
+2019-04-24 17:07:12.894  INFO 5988 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 17:07:13.126  INFO 5988 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 17:07:13.128  INFO 5988 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-24 17:07:13.520  INFO 5988 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 17:07:13.979  INFO 5988 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-04-24 17:07:14.291  INFO 5988 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 17:07:14.802  INFO 5988 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 17:07:14.857  WARN 5988 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 17:07:15.103  INFO 5988 --- [main] c.e.s.b.BookLibraryApplicationTests      : Started BookLibraryApplicationTests in 6.969 seconds (JVM running for 8.051)
+2019-04-24 17:07:15.242  INFO 5988 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 17:07:15.243  INFO 5988 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 17:07:15.245  INFO 5988 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-04-24 17:07:15.258  INFO 5988 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
