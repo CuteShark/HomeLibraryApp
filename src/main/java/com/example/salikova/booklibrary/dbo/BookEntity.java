@@ -13,7 +13,7 @@ import javax.validation.constraints.NotNull;
 /*
  * @author Natalya Salikova
  * */
-public class BookDBO {
+public class BookEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
