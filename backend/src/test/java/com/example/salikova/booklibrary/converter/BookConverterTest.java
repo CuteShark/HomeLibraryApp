@@ -1,7 +1,7 @@
 package com.example.salikova.booklibrary.converter;
 
 import com.example.salikova.booklibrary.MockData;
-import com.example.salikova.booklibrary.dbo.BookEntity;
+import com.example.salikova.booklibrary.entity.BookEntity;
 import com.example.salikova.booklibrary.dto.BookDto;
 import org.junit.Test;
 

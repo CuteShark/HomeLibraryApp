@@ -1,6 +1,6 @@
 package com.example.salikova.booklibrary;
 
-import com.example.salikova.booklibrary.dbo.BookEntity;
+import com.example.salikova.booklibrary.entity.BookEntity;
 import com.example.salikova.booklibrary.dto.BookDto;
 
 public class MockData {

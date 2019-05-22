@@ -1,6 +1,6 @@
 package com.example.salikova.booklibrary.converter;
 
-import com.example.salikova.booklibrary.dbo.BookEntity;
+import com.example.salikova.booklibrary.entity.BookEntity;
 import com.example.salikova.booklibrary.dto.BookDto;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;

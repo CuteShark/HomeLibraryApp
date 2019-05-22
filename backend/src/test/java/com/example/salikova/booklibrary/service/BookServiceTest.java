@@ -2,7 +2,7 @@ package com.example.salikova.booklibrary.service;
 
 import com.example.salikova.booklibrary.MockData;
 import com.example.salikova.booklibrary.converter.BookConverter;
-import com.example.salikova.booklibrary.dbo.BookEntity;
+import com.example.salikova.booklibrary.entity.BookEntity;
 import com.example.salikova.booklibrary.dto.BookDto;
 import com.example.salikova.booklibrary.repository.BookRepository;
 import org.junit.Test;
@@ -20,7 +20,7 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
 @RunWith(MockitoJUnitRunner.class)
-public class PersonServiceTest {
+public class BookServiceTest {
     @InjectMocks
     private BookService bookService;
 

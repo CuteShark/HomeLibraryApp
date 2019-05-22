@@ -1,4 +1,4 @@
-package com.example.salikova.booklibrary.dbo;
+package com.example.salikova.booklibrary.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,10 +9,10 @@ import javax.validation.constraints.NotNull;
 @Data
 @NoArgsConstructor
 @Entity
-@Table(name = "Book")
+@Table(name = "BOOK")
 /*
  * @author Natalya Salikova
- * */
+ */
 public class BookEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
